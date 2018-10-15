@@ -4,9 +4,9 @@ applications:
   disk_quota: 1G
   instances: 1
   memory: 1G
-  buildpack: java_buildpack
   random-route: true
   stack: cflinuxfs2
   services:
   - config-server
+  - service-registry
   

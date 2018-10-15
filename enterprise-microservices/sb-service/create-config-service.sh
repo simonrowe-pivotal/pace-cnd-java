@@ -1,0 +1,1 @@
+cf create-service -c '{"git": { "uri": "https://github.com/simonrowe-pivotal/app-config", "label" : "master" }, "count": 2 }' p-config-server standard config-server

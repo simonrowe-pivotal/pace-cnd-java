@@ -1,20 +1,24 @@
-security: 
-  basic: 
-    enabled: false
- 
-management: 
-  security: 
-    enabled: false
- 
-spring: 
+spring:
   jpa: 
     properties: 
       hibernate: 
         dialect: org.hibernate.dialect.MySQL5Dialect
     hibernate: 
       ddl-auto: update
- 
+
+
 greetingLanguage: English
+
+eureka:
+  client:
+    enabled: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
 ---
 spring: 
   profiles: dev
