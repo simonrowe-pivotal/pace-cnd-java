@@ -1,0 +1,1 @@
+cf create-service cleardb spark greetings-db

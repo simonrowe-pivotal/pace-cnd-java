@@ -1,0 +1,1 @@
+cf bind-service cloud-native-demo greetings-db
