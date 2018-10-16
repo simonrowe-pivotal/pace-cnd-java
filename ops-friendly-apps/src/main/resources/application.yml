@@ -6,11 +6,15 @@ spring:
     hibernate:
       ddl-auto: update
 
-management:
-  security:
-    enabled: false
+
     
 greetingLanguage: English
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
 ---
 spring:
   profiles: dev
