@@ -19,6 +19,11 @@ management:
       exposure:
         include: '*'
 
+logging:
+  level:
+    io:
+      pivotal:
+         pace: debug
 ---
 spring: 
   profiles: dev

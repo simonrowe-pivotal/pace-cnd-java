@@ -8,5 +8,5 @@ applications:
   stack: cflinuxfs2
   services:
   - config-server
-  - service-registry
+#  - service-registry
   
