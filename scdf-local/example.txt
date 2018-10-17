@@ -1,0 +1,1 @@
+image-stream-1=file-source:file --directory=/tmp/images/in | detect-object:object-detection --mode=header --model='file:/Users/srowe/workspace/tensorflow-config/frozen-inference-graph.pb' --labels='file:/Users/srowe/workspace/tensorflow-config/mscoco_label_map.pbtxt'| file-sink:file --directory='/tmp/images/out' --name-expression='"with-detection-" + headers[file_name]' 
