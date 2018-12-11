@@ -1,4 +1,10 @@
-spring:
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+ 
+spring: 
   jpa: 
     properties: 
       hibernate: 
