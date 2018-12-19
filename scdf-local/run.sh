@@ -3,5 +3,5 @@ java -jar bin/spring-cloud-dataflow-server-local-1.6.3.RELEASE.jar \
 --spring.datasource.username=root \
 --spring.datasource.password=root \
 --spring.datasource.driver-class-name=org.mariadb.jdbc.Driver \
---spring.cloud.dataflow.applicationProperties.stream.spring.rabbitmq.host=rabbitmq \
+--spring.cloud.dataflow.applicationProperties.stream.spring.rabbitmq.host=localhost \
 --maven.remote-repositories.repo3.url=http://repo.spring.io/test-libs-snapshot-local
