@@ -12,18 +12,11 @@ spring:
     hibernate: 
       ddl-auto: update
 
-
 greetingLanguage: English
 
-eureka:
-  client:
-    enabled: false
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
+#eureka:
+#  client:
+#    enabled: false
 
 logging:
   level:
