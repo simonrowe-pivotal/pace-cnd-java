@@ -11,12 +11,15 @@ spring:
         dialect: org.hibernate.dialect.MySQL5Dialect
     hibernate: 
       ddl-auto: update
+  main:
+    allow-bean-definition-overriding: true
 
 greetingLanguage: English
 
-#eureka:
-#  client:
-#    enabled: false
+eureka:
+  client:
+    enabled: false
+
 
 logging:
   level:

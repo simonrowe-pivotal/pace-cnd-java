@@ -7,6 +7,7 @@ applications:
   random-route: true
   stack: cflinuxfs2
   services:
+  - greetings-db
   - config-server
 #  - service-registry
   
